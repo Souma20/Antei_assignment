@@ -1,8 +1,8 @@
 #!/bin/bash
 
-MODEL_NAME_OR_PATH="microsoft/Phi-3-mini-4k-instruct"
-VIT_PATH="openai/clip-vit-large-patch14-336/"
-HLORA_PATH="com_hlora_weights.bin"
+MODEL_NAME_OR_PATH="HealthGPT/Phi-3-mini-4k-instruct"
+VIT_PATH="HealthGPT/clip-vit-large-patch14-336"
+HLORA_PATH="HealthGPT/com_hlora_weights.bin"
 FUSION_LAYER_PATH="fusion_layer_weights.bin"
 
 python3 com_infer.py \

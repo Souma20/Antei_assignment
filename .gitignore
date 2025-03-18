@@ -257,3 +257,7 @@ cython_debug/
 
 .DS_Store/
 **/.DS_Store
+#models
+clip-vit-large-patch14-336/
+com_hlora_weights.bin
+Phi-3-mini-4k-instruct/

@@ -10,7 +10,7 @@ class HealthGPTConfig_M3_COM:
     vq_idx_nums = 8192
     instruct_template = "phi3_instruct"
     vit_path = "./clip-vit-large-patch14-336/"
-    hlora_path = "./HealthGPT-M3/com_hlora_weights.bin"
+    hlora_path = "./com_hlora_weights.bin"
     fusion_layer_path = None
     do_sample = False
     temperature = 0.0

@@ -96,7 +96,7 @@ class HealthGPT:
 
         model = load_weights(model, args.hlora_path, args.fusion_layer_path)
         model.eval()
-        model.to(model_dtype).cuda()
+        model.to(model_dtype)#.cuda()
 
         return model, tokenizer
 
