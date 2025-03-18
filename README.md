@@ -40,8 +40,8 @@ Evaluate how well HealthGPT processes and analyzes diverse medical images.
 ### Task 3: Build a Streamlit Demo
 **Objective:**  
 Create a user-friendly interface that replicates the core functionalities of the Gradio interface using Streamlit.
-"C:\Users\Souma Chakraborty\OneDrive\Pictures\Screenshots\Screenshot 2025-03-17 224457.png"
-**Completed:**
+![Screenshot 2025-03-17 224457](https://github.com/user-attachments/assets/159f43e3-f623-48cf-bb6a-aca11dbc2efd)
+
 - **Interface Development:**
   - Recreated input boxes for text (to enter questions) and image uploads.
   - Added options to select between analysis (comprehension) and generation tasks.
@@ -87,9 +87,6 @@ Propose and, if possible, implement improvements to enhance the overall performa
     - If the model detects a critical or urgent condition based on its analysis, notify the listed contact.
     - Integrate with email or SMS APIs to send real-time alerts.
 
-  # HealthGPT
-
-A medical AI system for visual question answering and image reconstruction tasks.
 
 ## Installation
 
@@ -250,7 +247,7 @@ Run the following command in the terminal:
 python app.py
 ```
 
-To run the Streamlit interface (if available):
+To run the Streamlit interface:
 
 ```bash
 streamlit run streamlit_app.py
